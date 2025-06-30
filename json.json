@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+    "id": 1,
+    "email": "admin@example.com",
+    "role": "admin",
+    "name": "Admin User",
+    "bio": "Platform administrator",
+    "skills": [],
+    "goals": ""
+    },
+    {
+    "id": 2,
+    "email": "mentor1@example.com",
+    "role": "mentor",
+    "name": "Alice Johnson",
+    "bio": "Experienced product designer and mentor.",
+    "skills": ["UI/UX", "Product Design", "Marketing"],
+    "goals": "Help startups improve their product design."
+    },
+    {
+    "id": 3,
+    "email": "mentee1@example.com",
+    "role": "mentee",
+    "name": "Charlie Lee",
+    "bio": "Aspiring product manager.",
+    "skills": ["Project Management"],
+    "goals": "Improve product design and management skills."
+    }
+  ],
+
+  "mentorshipRequests": [
+    {
+    "id": 101,
+    "menteeId": 3,
+    "mentorId": 2,
+    "status": "pending",
+    "createdAt": "2025-06-25T10:15:30Z",
+    "updatedAt": "2025-06-25T10:15:30Z"
+    }
+  ],
+
+  "sessions": [
+    {
+    "id": 201,
+    "mentorshipRequestId": 101,
+    "scheduledTime": "2025-07-05T15:00:00Z",
+    "status": "scheduled",
+    "createdAt": "2025-06-26T08:00:00Z",
+    "updatedAt": "2025-06-26T08:00:00Z"
+    }
+  ],
+
+  "feedback": [
+    {
+    "id": 301,
+    "sessionId": 201,
+    "menteeRating": 5,
+    "menteeComment": "Very helpful session, learned a lot!",
+    "mentorComment": "Great engagement and questions.",
+    "createdAt": "2025-07-05T17:00:00Z"
+    }
+  ]
+}
