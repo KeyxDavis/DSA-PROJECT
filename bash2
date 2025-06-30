@@ -1,0 +1,3 @@
+npx create-react-app mentorship-frontend
+cd mentorship-frontend
+npm install axios react-router-dom

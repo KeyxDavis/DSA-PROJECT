@@ -1,0 +1,2 @@
+npm init -y
+npm install express sequelize pg pg-hstore bcrypt jsonwebtoken cors express-validator
